@@ -1,10 +1,10 @@
 {
-  "spider": "./lib/lib.jar;md5;f1c129c7f789310d34619fe9688f6c2a",
+  "spider": "lib.jar;md5;f1c129c7f789310d34619fe9688f6c2a",
   "lives": [
     {
       "name": "live",
       "type": 0,
-      "url": "./lib/live.txt",
+      "url": "live.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
@@ -14,46 +14,46 @@
       "key": "豆瓣推荐",
       "name": "🌕已屏蔽广告",
       "type": 3,
-      "api": "./lib/apiv43drpy2.min.js",
+      "api": "apiv43drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/douban.js"
+      "ext": "douban.js"
     },
     {
       "key": "爱奇艺",
       "name": "爱奇艺",
       "type": 3,
-      "api": "./lib/apiv43drpy2.min.js",
-      "ext": "./lib/aiqiyi.js"
+      "api": "apiv43drpy2.min.js",
+      "ext": "aiqiyi.js"
     },
     {
       "key": "优酷视频",
       "name": "优酷视频",
       "type": 3,
-      "api": "./lib/apiv43drpy2.min.js",
-      "ext": "./lib/youku.js"
+      "api": "apiv43drpy2.min.js",
+      "ext": "youku.js"
     },
     {
       "key": "腾讯视频",
       "name": "腾讯视频",
       "type": 3,
-      "api": "./lib/apiv43drpy2.min.js",
-      "ext": "./lib/tengxun.js"
+      "api": "apiv43drpy2.min.js",
+      "ext": "tengxun.js"
     },
     {
       "key": "芒果视频",
       "name": "芒果视频",
       "type": 3,
-      "api": "./lib/apiv43drpy2.min.js",
-      "ext": "./lib/mangguo.js"
+      "api": "apiv43drpy2.min.js",
+      "ext": "mangguo.js"
     },
     {
       "key": "搜狗视频",
       "name": "搜狗视频",
       "type": 3,
-      "api": "./lib/apiv43drpy2.min.js",
-      "ext": "./lib/caigou.js"
+      "api": "apiv43drpy2.min.js",
+      "ext": "caigou.js"
     },
     {
       "key": "360影视",
@@ -99,8 +99,8 @@
       "key": "畅梦视频",
       "name": "畅梦秒播",
       "type": 3,
-      "api": "./lib/apiv43drpy2.min.js",
-      "ext": "./lib/changmeng.js"
+      "api": "apiv43drpy2.min.js",
+      "ext": "changmeng.js"
     },
     {
       "key": "农民影视",
@@ -110,7 +110,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/nongmin.json"
+      "ext": "nongmin.json"
     },
     {
       "key": "子子影视",
@@ -120,14 +120,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/zizi.json"
+      "ext": "zizi.json"
     },
     {
       "key": "荐片秒播",
       "name": "荐片秒播",
       "type": 3,
-      "api": "./lib/apiv43drpy2.min.js",
-      "ext": "./lib/jianpian.js"
+      "api": "apiv43drpy2.min.js",
+      "ext": "jianpian.js"
     },
     {
       "key": "酷云秒播",
@@ -146,7 +146,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/changzhang.json"
+      "ext": "changzhang.json"
     }
   ],
   "parses": [
