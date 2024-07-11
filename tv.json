@@ -1,10 +1,11 @@
 {
-  "spider": "./lib.jar;md5;5e6b85d785a99b75023824e9bd3e9ce5",
+  "spider": "./lib/lib.jar;md5;5e6b85d785a99b75023824e9bd3e9ce5",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "lives": [
     {
       "name": "live",
       "type": 0,
-      "url": "live.txt",
+      "url": "./lib/live.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
@@ -12,58 +13,77 @@
   "sites": [
     {
       "key": "豆瓣推荐",
-      "name": "🌕已屏蔽广告",
+      "name": "🌕已全面屏蔽广告",
       "type": 3,
-      "api": "apiv43drpy2.min.js",
+      "api": "./lib/apiv43drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "douban.js"
+      "ext": "./lib/douban.js"
     },
     {
       "key": "爱奇艺",
-      "name": "爱奇艺",
+      "name": "爱奇艺官方",
       "type": 3,
-      "api": "apiv43drpy2.min.js",
-      "ext": "aiqiyi.js"
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/aiqiyi.js"
     },
     {
       "key": "优酷视频",
-      "name": "优酷视频",
+      "name": "优酷视频官方",
       "type": 3,
-      "api": "apiv43drpy2.min.js",
-      "ext": "youku.js"
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/youku.js"
     },
     {
-      "key": "腾讯视频",
-      "name": "腾讯视频",
+      "key": "腾讯",
+      "name": "腾讯视频官方",
       "type": 3,
-      "api": "apiv43drpy2.min.js",
-      "ext": "tengxun.js"
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/tengxun.js"
     },
     {
-      "key": "芒果视频",
-      "name": "芒果视频",
+      "key": "芒果TV",
+      "name": "芒果TV官方",
       "type": 3,
-      "api": "apiv43drpy2.min.js",
-      "ext": "mangguo.js"
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/mangguo.js"
     },
     {
-      "key": "搜狗视频",
-      "name": "搜狗视频",
+      "key": "搜狗",
+      "name": "搜狗官方",
       "type": 3,
-      "api": "apiv43drpy2.min.js",
-      "ext": "caigou.js"
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/caigou.js"
     },
     {
       "key": "360影视",
-      "name": "360影视",
+      "name": "360影视官方",
       "type": 3,
       "api": "csp_SP360",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0
+    },
+    {
+      "key": "t4_wo",
+      "name": "玩偶T4",
+      "type": 4,
+      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=94fd5ab297e24a769bb762375118ec47",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Xinsj",
+      "name": "6080",
+      "type": 3,
+      "api": "csp_Xinsj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://www.80yy1.com/"
     },
     {
       "key": "影探4K",
@@ -76,7 +96,7 @@
       "ext": "http://gvvwvvvvwwwvvvvvvwvwwvwvwvwvwvwvwvwvwvwwvwvwvwvwvwvwvwvvwvwvwvv.lfytyl.com/api.php/app/"
     },
     {
-      "key": "酷影4K",
+      "key": "酷影",
       "name": "酷影4K",
       "type": 3,
       "api": "csp_AppYsV2",
@@ -96,11 +116,71 @@
       "ext": "https://ttsp.live/api.php/app/"
     },
     {
-      "key": "畅梦视频",
+      "key": "玉米",
+      "name": "玉米2K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://22222.yiyingys.asia/api.php/app/"
+    },
+    {
+      "key": "蘑菇影视",
+      "name": "蘑菇2K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.gvideo.me/api.php/app/"
+    },
+    {
+      "key": "玉米",
+      "name": "玉米2K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://yumi.ghlyys.com/api.php/app/"
+    },
+    {
+      "key": "蘑菇影视",
+      "name": "蘑菇2K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://11111111.moguys.xyz/api.php/app/"
+    },
+    {
+      "key": "蚂蚁",
+      "name": "蚂蚁秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://wushutvcms.byzz.top/api.php/app/"
+    },
+    {
+      "key": "365",
+      "name": "365秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://guan.yy365.vip/api.php/app/"
+    },
+    {
+      "key": "畅梦",
       "name": "畅梦秒播",
       "type": 3,
-      "api": "apiv43drpy2.min.js",
-      "ext": "changmeng.js"
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/changmeng.js"
     },
     {
       "key": "农民影视",
@@ -110,7 +190,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "nongmin.json"
+      "ext": "./lib/nongmin.json"
     },
     {
       "key": "子子影视",
@@ -120,17 +200,17 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "zizi.json"
+      "ext": "./lib/zizi.json"
     },
     {
-      "key": "荐片秒播",
+      "key": "荐片",
       "name": "荐片秒播",
       "type": 3,
-      "api": "apiv43drpy2.min.js",
-      "ext": "jianpian.js"
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/jianpian.js"
     },
     {
-      "key": "酷云秒播",
+      "key": "酷云77",
       "name": "酷云秒播",
       "type": 3,
       "api": "csp_Kunyu77",
@@ -139,14 +219,116 @@
       "filterable": 1
     },
     {
-      "key": "厂长秒播",
+      "key": "厂长",
       "name": "厂长秒播",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "changzhang.json"
+      "ext": "./lib/changzhang.json"
+    },
+    {
+      "key": "鸿运当头",
+      "name": "鸿运秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "http://jh.dytt996.com:996/api.php/app/"
+    },
+    {
+      "key": "低端影视",
+      "name": "低端秒播",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/diduan.json"
+    },
+    {
+      "key": "在线之家",
+      "name": "外剧秒播",
+      "type": 3,
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/zaixian.js"
+    },
+    {
+      "key": "素白白",
+      "name": "素白秒播",
+      "type": 3,
+      "api": "./lib/apiv43drpy2.min.js",
+      "ext": "./lib/subaibai.js"
+    },
+    {
+      "key": "徕米影视",
+      "name": "徕米影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": "1",
+      "ext": "./lib/laimi.json"
+    },
+    {
+      "key": "速看",
+      "name": "速看100",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://sk100.tv/api.php/app/"
+    },
+    {
+      "key": "1080蓝光",
+      "name": "1080蓝光",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://1080dyw.com/icciu_api.php/v1.vod"
+    },
+    {
+      "key": "明帝影视",
+      "name": "明帝影视",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://ys.md214.cn/api.php/app/"
+    },
+    {
+      "key": "爱迪影视",
+      "name": "爱迪影视",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "ext": "https://api123.adys.app/xgapp.php/v3/"
+    },
+    {
+      "key": "大豆高清",
+      "name": "大豆高清",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.dadou.cm/api.php/app/"
+    },
+    {
+      "key": "csp_AppYsV2",
+      "name": "69美剧",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.69mj.com/xgapp.php/v2/"
     }
   ],
   "parses": [
@@ -161,7 +343,7 @@
       "url": "Web"
     },
     {
-      "name": "官方解码-1",
+      "name": "官方解码1",
       "type": 1,
       "url": "http://api.huohua.vip/api/?key=6qwYWYpe4mSaPhFvSw&url=",
       "ext": {
@@ -190,7 +372,7 @@
       }
     },
     {
-      "name": "官方解码-2",
+      "name": "官方解码2",
       "type": 1,
       "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
       "ext": {
@@ -219,7 +401,7 @@
       }
     },
     {
-      "name": "官方解码-3",
+      "name": "官方解码3",
       "type": 1,
       "url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url=",
       "ext": {
@@ -248,7 +430,7 @@
       }
     },
     {
-      "name": "官方解码-4",
+      "name": "官方解码4",
       "type": 1,
       "url": "http://api.huohua.vip/api/?key=6qwYWYpe4mSaPhFvSw&url=",
       "ext": {
@@ -277,7 +459,7 @@
       }
     },
     {
-      "name": "影探解码",
+      "name": "影探",
       "type": 1,
       "url": "http://lflong.lyyytv.cn/json.php?url=",
       "ext": {
@@ -306,7 +488,7 @@
       }
     },
     {
-      "name": "蚂蚁解码",
+      "name": "蚂蚁",
       "type": 1,
       "url": "http://118.99.2.230:6688/api/?key=vAhZ67qzRdW2czQEo2&url=",
       "ext": {
@@ -319,7 +501,7 @@
       }
     },
     {
-      "name": "玉米解码",
+      "name": "玉米",
       "type": 1,
       "url": "http://42.157.128.109:2323/CH/zy/Yumi.php?url=",
       "ext": {
@@ -332,7 +514,7 @@
       }
     },
     {
-      "name": "飞云解码",
+      "name": "飞云",
       "type": 1,
       "url": "https://daina.hk/api/?key=db18410c19c9ef6713cb5aa1408d2da4&url=",
       "ext": {
@@ -345,7 +527,7 @@
       }
     },
     {
-      "name": "车哥解码",
+      "name": "车哥",
       "type": 1,
       "url": "https://hd.396pay.cn/api/?key=WYfoc47cVuA6xeED4H&url=",
       "ext": {
@@ -357,7 +539,7 @@
       }
     },
     {
-      "name": "车弟解码",
+      "name": "车弟",
       "type": 1,
       "url": "https://xjx.tvcms.top/api/?key=a035e75110289821feec5033ffde2bec&url=",
       "ext": {
